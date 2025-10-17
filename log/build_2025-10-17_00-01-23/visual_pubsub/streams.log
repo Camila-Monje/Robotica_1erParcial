@@ -1,0 +1,26 @@
+[0.307s] Invoking command in '/home/camila/robot1_ws/build/visual_pubsub': PYTHONPATH=/home/camila/robot1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/camila/robot1_ws/build/visual_pubsub/build --no-deps symlink_data
+[0.434s] running develop
+[0.515s] running egg_info
+[0.515s] creating visual_pubsub.egg-info
+[0.515s] writing visual_pubsub.egg-info/PKG-INFO
+[0.515s] writing dependency_links to visual_pubsub.egg-info/dependency_links.txt
+[0.515s] writing entry points to visual_pubsub.egg-info/entry_points.txt
+[0.516s] writing requirements to visual_pubsub.egg-info/requires.txt
+[0.516s] writing top-level names to visual_pubsub.egg-info/top_level.txt
+[0.516s] writing manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.517s] reading manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.517s] writing manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.518s] running build_ext
+[0.518s] Creating /home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual-pubsub.egg-link (link to .)
+[0.518s] Installing inverse_k script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.518s] Installing pub_joints script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.518s] Installing sub_joints script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.518s] 
+[0.518s] Installed /home/camila/robot1_ws/build/visual_pubsub
+[0.518s] running symlink_data
+[0.518s] creating /home/camila/robot1_ws/install/visual_pubsub/share/ament_index
+[0.518s] creating /home/camila/robot1_ws/install/visual_pubsub/share/ament_index/resource_index
+[0.519s] creating /home/camila/robot1_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+[0.519s] symbolically linking /home/camila/robot1_ws/build/visual_pubsub/resource/visual_pubsub -> /home/camila/robot1_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+[0.519s] symbolically linking /home/camila/robot1_ws/build/visual_pubsub/package.xml -> /home/camila/robot1_ws/install/visual_pubsub/share/visual_pubsub
+[0.532s] Invoked command in '/home/camila/robot1_ws/build/visual_pubsub' returned '0': PYTHONPATH=/home/camila/robot1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/camila/robot1_ws/build/visual_pubsub/build --no-deps symlink_data

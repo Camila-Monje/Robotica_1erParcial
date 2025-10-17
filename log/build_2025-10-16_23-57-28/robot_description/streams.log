@@ -1,0 +1,6 @@
+[0.009s] Invoking command in '/home/camila/robot1_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/camila/robot_ws/install/visual_pubsub:/home/camila/robot_ws/install/cliente_servidor:/opt/ros/humble /usr/bin/cmake --build /home/camila/robot1_ws/build/robot_description -- -j24 -l24
+[0.012s] [0mCMake Error: The current CMakeCache.txt directory /home/camila/robot1_ws/build/robot_description/CMakeCache.txt is different than the directory /home/laura/Documents/robot1_ws/build/robot_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.017s] [0mCMake Error: The source directory "/home/laura/Documents/robot1_ws/src/robot_description" does not exist.
+[0.017s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.018s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.140s] Invoked command in '/home/camila/robot1_ws/build/robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/camila/robot_ws/install/visual_pubsub:/home/camila/robot_ws/install/cliente_servidor:/opt/ros/humble /usr/bin/cmake --build /home/camila/robot1_ws/build/robot_description -- -j24 -l24

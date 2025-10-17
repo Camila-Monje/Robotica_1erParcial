@@ -1,0 +1,1 @@
+Invoking command in '/home/laura/Documents/robot1_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/Documents/robot1_ws/build/custom_interface -- -j8 -l8

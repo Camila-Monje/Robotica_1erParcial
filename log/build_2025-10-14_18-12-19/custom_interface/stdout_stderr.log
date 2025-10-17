@@ -1,0 +1,249 @@
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_generator_c[0m
+[  1%] Built target custom_interface__cpp
+[  3%] Built target ament_cmake_python_copy_custom_interface
+[ 12%] Built target custom_interface__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_c[0m
+[ 23%] Built target custom_interface__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_introspection_c[0m
+[ 34%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[ 45%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[ 67%] Built target custom_interface__rosidl_typesupport_introspection_c
+[ 78%] Built target custom_interface__rosidl_typesupport_c
+[ 78%] Built target custom_interface
+[ 80%] Built target custom_interface__py
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_generator_py[0m
+[ 89%] Built target custom_interface__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_c__pyext[0m
+[ 92%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[100%] Built target custom_interface__rosidl_typesupport_c__pyext
+running egg_info
+writing custom_interface.egg-info/PKG-INFO
+writing dependency_links to custom_interface.egg-info/dependency_links.txt
+writing top-level names to custom_interface.egg-info/top_level.txt
+reading manifest file 'custom_interface.egg-info/SOURCES.txt'
+writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_custom_interface_egg
+-- Install configuration: ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/get_position.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__functions.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__functions.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__type_support.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__functions.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__struct.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__functions.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__struct.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/add_three_ints.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/sphere.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__struct.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__type_support.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__struct.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__functions.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__functions.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__functions.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__functions.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__type_support.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/num.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/library_path.sh
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/get_position.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/add_three_ints.hpp
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__builder.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__traits.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__traits.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__struct.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__type_support.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__builder.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__struct.hpp
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/num.hpp
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__struct.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__type_support.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__traits.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__builder.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__type_support.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__builder.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__traits.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__struct.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/sphere.hpp
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/dds_fastrtps
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/dds_fastrtps
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__type_support.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__type_support.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__type_support.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.cpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__type_support.cpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Up-to-date: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__type_support.cpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__type_support.cpp
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/libcustom_interface__rosidl_generator_py.so
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_get_position.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_get_position_s.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints_s.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_num_s.c
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/__init__.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_sphere.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_num.py
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_sphere_s.c
+Listing '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py'...
+Listing '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/__init__.py'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_num.py'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_sphere.py'...
+Listing '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints.py'...
+Compiling '/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_get_position.py'...
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so
+-- Set runtime path of "/home/laura/Documents/robot1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/msg/Num.idl
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/msg/Sphere.idl
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts.idl
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/GetPosition.idl
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/msg/Num.msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/msg/Sphere.msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts.srv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts_Request.msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts_Response.msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/GetPosition.srv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/GetPosition_Request.msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/srv/GetPosition_Response.msg
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/path.sh
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/environment/path.dsv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/local_setup.bash
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/local_setup.sh
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/local_setup.zsh
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/local_setup.dsv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/package.dsv
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+-- Installing: /home/laura/Documents/robot1_ws/install/custom_interface/share/custom_interface/package.xml

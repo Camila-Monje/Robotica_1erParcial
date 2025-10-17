@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/visual_pubsub/visual_pubsub.egg-info/PKG-INFO
+writing dependency_links to ../../build/visual_pubsub/visual_pubsub.egg-info/dependency_links.txt
+writing entry points to ../../build/visual_pubsub/visual_pubsub.egg-info/entry_points.txt
+writing requirements to ../../build/visual_pubsub/visual_pubsub.egg-info/requires.txt
+writing top-level names to ../../build/visual_pubsub/visual_pubsub.egg-info/top_level.txt
+reading manifest file '../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/laura/Documents/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/visual_pubsub/visual_pubsub.egg-info to /home/laura/Documents/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing inverse_kinematics script to /home/laura/Documents/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+Installing pub_joints script to /home/laura/Documents/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+Installing sub_joints script to /home/laura/Documents/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+writing list of installed files to '/home/laura/Documents/robot1_ws/build/visual_pubsub/install.log'

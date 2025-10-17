@@ -1,0 +1,24 @@
+[0.338s] Invoking command in '/home/laura/Documents/robot1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura/Documents/robot1_ws/src/ros2_tutorials/test_move -DCMAKE_INSTALL_PREFIX=/home/laura/Documents/robot1_ws/install/test_move
+[0.351s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.500s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.500s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[0.500s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.500s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[0.500s]   did not find one.
+[0.500s] 
+[0.500s]   Could not find a package configuration file provided by
+[0.500s]   "moveit_ros_planning_interface" with any of the following names:
+[0.500s] 
+[0.500s]     moveit_ros_planning_interfaceConfig.cmake
+[0.500s]     moveit_ros_planning_interface-config.cmake
+[0.500s] 
+[0.501s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[0.501s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[0.501s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[0.501s]   provides a separate development package or SDK, be sure it has been
+[0.501s]   installed.
+[0.501s] 
+[0.501s] [0m
+[0.501s] -- Configuring incomplete, errors occurred!
+[0.501s] See also "/home/laura/Documents/robot1_ws/build/test_move/CMakeFiles/CMakeOutput.log".
+[0.613s] Invoked command in '/home/laura/Documents/robot1_ws/build/test_move' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura/Documents/robot1_ws/src/ros2_tutorials/test_move -DCMAKE_INSTALL_PREFIX=/home/laura/Documents/robot1_ws/install/test_move

@@ -1,0 +1,25 @@
+[0.318s] Invoking command in '/home/camila/robot1_ws/src/visual_pubsub': PYTHONPATH=/home/camila/robot1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visual_pubsub build --build-base /home/camila/robot1_ws/build/visual_pubsub/build install --record /home/camila/robot1_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[0.435s] running egg_info
+[0.435s] writing ../../build/visual_pubsub/visual_pubsub.egg-info/PKG-INFO
+[0.435s] writing dependency_links to ../../build/visual_pubsub/visual_pubsub.egg-info/dependency_links.txt
+[0.436s] writing entry points to ../../build/visual_pubsub/visual_pubsub.egg-info/entry_points.txt
+[0.436s] writing requirements to ../../build/visual_pubsub/visual_pubsub.egg-info/requires.txt
+[0.436s] writing top-level names to ../../build/visual_pubsub/visual_pubsub.egg-info/top_level.txt
+[0.436s] reading manifest file '../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[0.436s] adding license file 'LICENSE'
+[0.437s] writing manifest file '../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[0.437s] running build
+[0.437s] running build_py
+[0.437s] running install
+[0.437s] running install_lib
+[0.438s] running install_data
+[0.438s] running install_egg_info
+[0.439s] removing '/home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.439s] Copying ../../build/visual_pubsub/visual_pubsub.egg-info to /home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info
+[0.439s] running install_scripts
+[0.450s] Installing inverse_k script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.450s] Installing inverse_k_p script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.450s] Installing pub_joints script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.450s] Installing sub_joints script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.450s] writing list of installed files to '/home/camila/robot1_ws/build/visual_pubsub/install.log'
+[0.463s] Invoked command in '/home/camila/robot1_ws/src/visual_pubsub' returned '0': PYTHONPATH=/home/camila/robot1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visual_pubsub build --build-base /home/camila/robot1_ws/build/visual_pubsub/build install --record /home/camila/robot1_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data

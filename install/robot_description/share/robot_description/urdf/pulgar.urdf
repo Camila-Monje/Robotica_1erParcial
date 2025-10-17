@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<robot name="thumb_finger_corrected">
+
+    <material name="link_color"><color rgba="0.8 0.5 0.2 1"/></material>
+    <material name="joint_color"><color rgba="0.1 0.1 0.6 1"/></material>
+
+    <link name="base_link">
+        <visual>
+            <geometry><box size="0.1 0.1 0.1"/></geometry>
+            <material name="joint_color"/>
+        </visual>
+    </link>
+    
+    <link name="q0_rotated_link"/> 
+    
+    <joint name="q0" type="revolute">
+        <parent link="base_link"/>
+        <child link="q0_rotated_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/> 
+        <axis xyz="0 0 1"/> <limit lower="-0.52" upper="0.52" effort="1.0" velocity="1.0"/>
+    </joint>
+    
+    <link name="link1">
+        <visual>
+            <origin xyz="0 -0.25 0" rpy="1.570796 0 0"/> 
+            <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+            <material name="link_color"/>
+        </visual>
+    </link>
+
+    <joint name="q1" type="revolute">
+        <parent link="q0_rotated_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0" rpy="1.570796 0 0"/> 
+        <axis xyz="0 0 1"/> <limit lower="-1.57" upper="0.0" effort="1.0" velocity="1.0"/>
+    </joint>
+
+    <link name="link2">
+        <visual>
+            <origin xyz="0 -0.2 0" rpy="1.570796 0 0"/>
+            <geometry><cylinder length="0.4" radius="0.045"/></geometry>
+            <material name="link_color"/>
+        </visual>
+    </link>
+
+    <joint name="q2" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 -0.5 0" rpy="0 0 0"/> 
+        <axis xyz="0 0 1"/> <limit lower="-1.57" upper="0.0" effort="1.0" velocity="1.0"/>
+    </joint>
+
+    <link name="link3">
+        <visual>
+            <origin xyz="0 -0.15 0" rpy="1.570796 0 0"/>
+            <geometry><cylinder length="0.3" radius="0.04"/></geometry>
+            <material name="link_color"/>
+        </visual>
+    </link>
+
+    <joint name="q3" type="revolute">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 -0.4 0" rpy="0 0 0"/> 
+        <axis xyz="0 0 1"/> <limit lower="-1.57" upper="0.0" effort="1.0" velocity="1.0"/>
+    </joint>
+
+    <link name="ee_link">
+        <visual>
+            <geometry><sphere radius="0.08"/></geometry>
+            <material name="joint_color"/>
+        </visual>
+    </link>
+
+    <joint name="tool0" type="fixed">
+        <parent link="link3"/>
+        <child link="ee_link"/>
+        <origin xyz="0 -0.3 0" rpy="0 0 0"/>
+    </joint>
+
+</robot>

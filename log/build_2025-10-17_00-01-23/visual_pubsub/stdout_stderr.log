@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating visual_pubsub.egg-info
+writing visual_pubsub.egg-info/PKG-INFO
+writing dependency_links to visual_pubsub.egg-info/dependency_links.txt
+writing entry points to visual_pubsub.egg-info/entry_points.txt
+writing requirements to visual_pubsub.egg-info/requires.txt
+writing top-level names to visual_pubsub.egg-info/top_level.txt
+writing manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+reading manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+writing manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/camila/robot1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual-pubsub.egg-link (link to .)
+Installing inverse_k script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+Installing pub_joints script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+Installing sub_joints script to /home/camila/robot1_ws/install/visual_pubsub/lib/visual_pubsub
+
+Installed /home/camila/robot1_ws/build/visual_pubsub
+running symlink_data
+creating /home/camila/robot1_ws/install/visual_pubsub/share/ament_index
+creating /home/camila/robot1_ws/install/visual_pubsub/share/ament_index/resource_index
+creating /home/camila/robot1_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+symbolically linking /home/camila/robot1_ws/build/visual_pubsub/resource/visual_pubsub -> /home/camila/robot1_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+symbolically linking /home/camila/robot1_ws/build/visual_pubsub/package.xml -> /home/camila/robot1_ws/install/visual_pubsub/share/visual_pubsub

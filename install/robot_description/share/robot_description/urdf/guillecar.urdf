@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<robot name="tanky">
+    <link name="Base_Body">
+        <visual>
+            <geometry>
+                <box size="3 3 3"/>
+            </geometry>
+            <origin xyz="0 0 2"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <link name="L1_Wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.75" radius="0.5"/>
+            </geometry>
+            <origin xyz="0 1.5 0" rpy="1.57 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="L1_Wheel_Move" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="L1_Wheel"/>
+        <origin xyz="0.75 0 0.375" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+
+	<link name="L2_Wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.75" radius="0.5"/>
+            </geometry>
+            <origin xyz="0 1.5 0" rpy="1.57 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="L2_Wheel_Move" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="L2_Wheel"/>
+        <origin xyz="-0.75 0 0.375" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+
+	<link name="L3_Wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.75" radius="0.5"/>
+            </geometry>
+            <origin xyz="0 1.5 0" rpy="1.57 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="L3_Wheel_Move" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="L3_Wheel"/>
+        <origin xyz="0 0 1.25" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+
+	<link name="R1_Wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.75" radius="0.5"/>
+            </geometry>
+            <origin xyz="0 -1.5 0" rpy="1.57 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="R1_Wheel_Move" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="R1_Wheel"/>
+        <origin xyz="0.75 0 0.375" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+
+	<link name="R2_Wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.75" radius="0.5"/>
+            </geometry>
+            <origin xyz="0 -1.5 0" rpy="1.57 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="R2_Wheel_Move" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="R2_Wheel"/>
+        <origin xyz="-0.75 0 0.375" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+
+	<link name="R3_Wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.75" radius="0.5"/>
+            </geometry>
+            <origin xyz="0 -1.5 0" rpy="1.57 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="R3_Wheel_Move" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="R3_Wheel"/>
+        <origin xyz="0 0 1.25" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+</robot>

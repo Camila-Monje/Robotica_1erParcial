@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000132] (-) JobUnselected: {'identifier': 'visual_pubsub'}
+[0.000521] (-) EventReactorShutdown: {}

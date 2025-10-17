@@ -1,0 +1,3 @@
+Invoking command in '/home/laura/Documents/robot1_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/Documents/robot1_ws/build/custom_interface -- -j8 -l8
+Invoked command in '/home/laura/Documents/robot1_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/Documents/robot1_ws/build/custom_interface -- -j8 -l8
+Invoking command in '/home/laura/Documents/robot1_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/Documents/robot1_ws/build/custom_interface

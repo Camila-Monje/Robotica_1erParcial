@@ -1,0 +1,6 @@
+[console_scripts]
+inverse_k = visual_pubsub.inverse_kinematics:main
+inverse_k_p = visual_pubsub.inverse_kinematics_pulgar:main
+pub_joints = visual_pubsub.pub_joints:main
+sub_joints = visual_pubsub.sub_joints:main
+

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<robot name="simple_imp_robot">
+  <!-- Material Definitions -->
+    <material name="amarillo">
+        <color rgba="1 1 0 1"/>
+    </material>
+    <material name="negro">
+        <color rgba="0 0 0 1"/>
+    </material>
+    <material name="plomo">
+        <color rgba="0.6 0.6 0 1"/>
+    </material>
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.5 0.5 0.2"/>  
+            </geometry>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/> 
+            <material name="amarillo"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.5 0.5 0.2"/>
+            </geometry>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        </collision>
+    </link>
+
+    <link name="neck_link">
+        <visual>
+            <geometry>
+                <cylinder length="0.1" radius="0.05"/>  
+            </geometry>
+            <origin xyz="0 0 0.2" rpy="0 0 0"/>  
+            <material name="plomo"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.1" radius="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0.2" rpy="0 0 0"/>
+        </collision>
+    </link>
+
+    <link name="head_link">
+        <visual>
+            <geometry>
+                <box size="0.3 0.3 0.1"/>  
+            </geometry>
+            <origin xyz="0 0 0.25" rpy="0 0 0"/>  
+            <material name="plomo"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.3 0.3 0.1"/>
+            </geometry>
+            <origin xyz="0 0 0.25" rpy="0 0 0"/>
+        </collision>
+    </link>
+
+    <!-- Left Wheel -->
+    <link name="wheel1">
+        <visual>
+            <geometry>
+                <cylinder length="0.1" radius="0.1"/>  
+            </geometry>
+            <origin xyz="0.25 0 0" rpy="0 1.5708 0"/>  
+            <material name="negro"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.1" radius="0.1"/>
+            </geometry>
+            <origin xyz="0.25 0 0" rpy="0 1.5708 0"/>
+        </collision>
+    </link>
+
+    <!-- Right Wheel -->
+    <link name="wheel2">
+        <visual>
+            <geometry>
+                <cylinder length="0.1" radius="0.1"/>  
+            </geometry>
+            <origin xyz="-0.25 0 0" rpy="0 1.5708 0"/>  
+            <material name="negro"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.1" radius="0.1"/>
+            </geometry>
+            <origin xyz="-0.25 0 0" rpy="0 1.5708 0"/>
+        </collision>
+    </link>
+
+    <joint name="base_to_wheel1" type="continuous">
+        <parent link="base_link"/>
+        <child link="wheel1"/>
+        <origin xyz="0.05 0 0" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/> 
+    </joint>
+
+    <joint name="base_to_wheel2" type="continuous">
+        <parent link="base_link"/>
+        <child link="wheel2"/>
+        <origin xyz="-0.05 0 0" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>  
+    </joint>
+
+    <joint name="base_to_neck" type="fixed">
+        <parent link="base_link"/>
+        <child link="neck_link"/>
+        <origin xyz="0 0 0.03" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="neck_to_head" type="continuous">
+        <parent link="neck_link"/>
+        <child link="head_link"/>
+        <origin xyz="0 0 0.03" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>  <!-- Eje de movimiento de izquierda a derecha -->
+    </joint>
+
+</robot>

@@ -1,0 +1,1 @@
+Invoking command in '/home/laura/Documents/robot1_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura/Documents/robot1_ws/src/ros2_tutorials/custom_interface -DCMAKE_INSTALL_PREFIX=/home/laura/Documents/robot1_ws/install/custom_interface

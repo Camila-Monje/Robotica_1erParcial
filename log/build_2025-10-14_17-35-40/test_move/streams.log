@@ -1,0 +1,36 @@
+[0.193s] Invoking command in '/home/laura/Documents/robot1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura/Documents/robot1_ws/src/ros2_tutorials/test_move -DCMAKE_INSTALL_PREFIX=/home/laura/Documents/robot1_ws/install/test_move
+[0.417s] -- The C compiler identification is GNU 11.4.0
+[0.417s] -- The CXX compiler identification is GNU 11.4.0
+[0.417s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.417s] -- Detecting C compile features
+[0.417s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.607s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[0.607s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.607s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[0.607s]   did not find one.
+[0.607s] 
+[0.607s]   Could not find a package configuration file provided by
+[0.607s]   "moveit_ros_planning_interface" with any of the following names:
+[0.607s] 
+[0.607s]     moveit_ros_planning_interfaceConfig.cmake
+[0.607s]     moveit_ros_planning_interface-config.cmake
+[0.607s] 
+[0.608s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[0.608s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[0.608s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[0.608s]   provides a separate development package or SDK, be sure it has been
+[0.608s]   installed.
+[0.608s] 
+[0.608s] [0m
+[0.608s] -- Configuring incomplete, errors occurred!
+[0.608s] See also "/home/laura/Documents/robot1_ws/build/test_move/CMakeFiles/CMakeOutput.log".
